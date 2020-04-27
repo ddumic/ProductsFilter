@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Lamar" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductsFilter.Business\ProductsFilter.Business.csproj" />
+    <ProjectReference Include="..\ProductsFilter.Repository\ProductsFilter.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

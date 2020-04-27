@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductsFilter.Configuration\ProductsFilter.Configuration.csproj" />
+    <ProjectReference Include="..\ProductsFilter.Messaging\ProductsFilter.Messaging.csproj" />
+    <ProjectReference Include="..\ProductsFilter.Model\ProductsFilter.Model.csproj" />
+  </ItemGroup>
+
+</Project>
